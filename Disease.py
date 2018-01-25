@@ -1,4 +1,4 @@
-from capivaraprojects.greeneyes.models.Plant import Plant
+from models.Plant import Plant
 
 
 class Disease:

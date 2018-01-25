@@ -1,5 +1,5 @@
-from capivaraprojects.greeneyes.models.Disease import Disease
-from capivaraprojects.greeneyes.models.Type import Type
+from models.Disease import Disease
+from models.Type import Type
 
 
 class Image:
