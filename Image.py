@@ -9,9 +9,10 @@ class Image:
                  url="",
                  description="",
                  source="",
-                 size=Type()):
+                 size=0):
         self.id = id
         self.disease = disease
         self.url = url
         self.description = description
         self.source = source
+        self.size = size
