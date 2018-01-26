@@ -1,5 +1,4 @@
-from capivaraprojects.greeneyes.models.Type import Type
-
+from models.Type import Type
 
 class User:
     def __init__(self,
