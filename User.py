@@ -1,22 +1,21 @@
-from capivaraprojects.greeneyes.models.Type import Type
-
+from models.Type import Type
 
 class User:
     def __init__(self,
                  id=0,
+                 idType=0,
                  email="",
                  username="",
                  password="",
                  salt="",
-                 type=Type(),
-                 date_insertion="",
-                 date_update=""):
+                 dateInsertion="",
+                 dateUpdate=""):
 
         self.id = id
+        self.idType = idType
         self.email = email
         self.username = username
         self.password = password
         self.salt = salt
-        self.type = type
-        self.date_insertion = date_insertion
-        self.date_update = date_update
+        self.dateInsertion = dateInsertion
+        self.dateUpdate = dateUpdate
