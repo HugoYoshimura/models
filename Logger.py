@@ -1,7 +1,7 @@
 import datetime
 
 
-def Logger:
+class Logger:
     def __init__(self, type='', message='', function='', obs='', config=''):
         self.type = type
         self.timestamp = str(datetime.datetime.now())
