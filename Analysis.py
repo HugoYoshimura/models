@@ -7,7 +7,7 @@ class Analysis:
     def __init__(self,
                  id=0,
                  image=object(),
-		 classifier=object()):
+                 classifier=object()):
         self.id = id
         self.image = image
-	self.classifier = classifier
+        self.classifier = classifier
