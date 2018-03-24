@@ -1,4 +1,4 @@
-class PagedReponse:
+class PagedResponse:
     def __init__(self,
                  status_code=0,
                  message="",
