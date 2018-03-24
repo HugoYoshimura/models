@@ -1,13 +1,18 @@
 from models.Plant import Plant
 
 
+
+
 class Classifier:
 	def __init__(self,
 		     id=0, 
-		     idPlant=0, 
+		     plant=Plant(), 
 		     tag="", 
-		     path=""):
+		     path="",
+		     analyses=list()):
+
 		self.id = id
-		self.idPlant = idPlant
+		self.plant = plant
 		self.tag = tag
 		self.path = path
+		self.analyses = analyses
