@@ -11,8 +11,8 @@ class Classifier:
 		     path="",
 		     analyses=list()):
 
-		self.id = id
-		self.plant = plant
-		self.tag = tag
-		self.path = path
-		self.analyses = analyses
+	self.id = id
+	self.plant = plant
+	self.tag = tag
+	self.path = path
+	self.analyses = analyses
