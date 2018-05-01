@@ -15,7 +15,7 @@ class Analysis:
     def __init__(self,
                  id=0,
                  image=Image(),
-                 classifier=Classifier():
+                 classifier=Classifier()):
         """Analisys model constructor
         Args:
             id: Integer number to identification
