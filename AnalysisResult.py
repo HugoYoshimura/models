@@ -10,6 +10,7 @@ class AnalysisResult:
         analysis    Analysis object that gave this result
         disease    Disease object that was predicted by the Analysis classifier
         score    Score of result certainty
+        frame    peace of image that went submited to prediction
     """
 
 
@@ -17,7 +18,8 @@ class AnalysisResult:
                  id=0,
                  analysis=Analysis(),
                  disease=Disease(),
-                 score=0):
+                 score=0,
+                 frame='0,0,0,0'):
         """AnalisysResult model constructor
 
         args:
@@ -25,8 +27,10 @@ class AnalysisResult:
             analysis: Analysis object that gave this result
             disease: Disease object that was predicted by the Analysis classifier
             score: Score of result certainty
+            frame: peace of image that went submited to prediction
         """
         self.id = id
         self.analysis = analysis
         self.disease = disease
         self.score = score
+        self.frame = frame
