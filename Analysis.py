@@ -9,19 +9,23 @@ class Analysis:
         id: Identification number of this object
         image: Image object that has been used for this Analysis
         classifier: Classifier object that has been used for this Analysis
+        analysis_results: A list of AnalysisResult object with all results
     """
 
 
     def __init__(self,
                  id=0,
                  image=Image(),
-                 classifier=Classifier()):
+                 classifier=Classifier(),
+                 analysis_results=[]):
         """Analisys model constructor
         Args:
             id: Integer number to identification
             image: Image object that has been used for this Analysis
             classifier: Classifier object that has been used for this Analysis
+            analysis_results: A list of AnalysisResult object with all results
         """
         self.id = id
         self.image = image
         self.classifier = classifier
+        self.analysis_results = analysis_results
