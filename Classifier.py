@@ -1,8 +1,6 @@
 from models.Plant import Plant
 
 
-
-
 class Classifier:
     def __init__(self,
 		 id=0, 
