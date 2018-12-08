@@ -3,7 +3,7 @@ class Text:
         self.id = id
         self.language = language
         self.plant = plant
-	self.status = status
-	self.attribute = attribute
+	 self.status = status
+	 self.attribute = attribute
         self.value = value
         self.reference = reference
