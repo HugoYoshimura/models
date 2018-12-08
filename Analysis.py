@@ -1,24 +1,10 @@
 from models.Classifier import Classifier
 from models.Image import Image
-<<<<<<< HEAD
-
-
-
-class Analysis:
-    def __init__(self,
-                 id=0,
-                 image=object(),
-                 classifier=object()):
-        self.id = id
-        self.image = image
-        self.classifier = classifier
-=======
 from models.User import User
 
 
 class Analysis:
     """An Analysis object contains information about an executed image analysis.
-
     Attributes:
         id: Identification number of this object
         image: Image object that has been used for this Analysis
@@ -47,4 +33,3 @@ class Analysis:
         self.classifier = classifier
         self.analysis_results = analysis_results
         self.user = user
->>>>>>> original/master
